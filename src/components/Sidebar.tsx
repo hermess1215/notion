@@ -7,14 +7,15 @@ const Sidebar = () => {
                 <div className="profile">
                     <a href="#"><h4>Notion</h4></a>
                 </div>
-                <div className="menu">
-                    <div className="search">
+                <div className="menus">
+                    <div className='menu' id='search'>
                         <a href="#">Search</a>
                     </div>
-                    <div className="home">
+                    <div className='menu' id='home'>
                         <a href="#">Home</a>
                     </div>
-                    <div className="inbox">
+                    <div className='menu' id='inbox'>
+
                         <a href="#">Inbox</a>
                     </div>
                 </div>

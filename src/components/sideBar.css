@@ -11,17 +11,24 @@ aside{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.container{
+aside .container{
     width: 100%;
     height: 100%;
 }
 
-.container a{
+aside .container a{
     text-decoration: none;
     color: #9B9B9B;
 }
 
-.container h4{
+aside .container h4{
     text-align: center;
     color: #9B9B9B;
+}
+
+.menus{
+    width: 224px;
+    height: 100px;
+    margin: 0 8px;
+    padding-bottom: 8px;
 }
